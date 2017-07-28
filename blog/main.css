@@ -8,11 +8,23 @@ body {
 .header {
   font-size: 60px;
   font-family: fantasy;
-  padding-top: 30px;
   color:maroon;
   background-image: url("headerbg.png");
   height: 200px;
   border: 10px solid #f2d7bc;
+}
+
+#headerText {
+  padding-top: 40px;
+}
+
+#addEntryBtn {
+  width: 80px;
+  height: 30px;
+  background-color: white;
+  color: maroon;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 #blogEntryContainer {
@@ -29,7 +41,6 @@ body {
 #blogEntryName {
   width: 600px;
   margin-bottom: 10px;
-  margin-left: -70px;
   font-size: 20px;
 }
 
